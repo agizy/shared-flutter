@@ -1,0 +1,36 @@
+# Dartdoc configuration for API documentation
+dartdoc:
+  # Output directory for generated docs
+  output: doc/api
+
+  # Categories for organizing documentation
+  categories:
+    Design:
+      name: Design System
+      markdown: doc/design.md
+    Monetization:
+      name: Monetization
+      markdown: doc/monetization.md
+    Platform:
+      name: Platform Channels
+      markdown: doc/platform.md
+    Testing:
+      name: Testing Utilities
+      markdown: doc/testing.md
+
+  # Link to source code
+  linkToSource:
+    root: .
+    uriTemplate: https://github.com/{username}/{repo}/blob/main/shared/%f%#L%l%
+
+  # Exclude private APIs
+  showUndocumentedCategories: false
+  exclude:
+    - "lib/**/*.g.dart"
+    - "lib/**/*.freezed.dart"
+    - "test/**"
+
+  # Custom footer
+  footerText: [
+    "README.md",
+  ]

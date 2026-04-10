@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  Network Security Config for Flutter Apps
+  Copy to: android/app/src/main/res/xml/network_security_config.xml
+  
+  SECURITY NOTES:
+  - cleartextTrafficPermitted="false" blocks all HTTP traffic (HTTPS only)
+  - Remove debug overrides before production
+  - Add specific domains if needed for your APIs
+-->
+<network-security-config>
+    <!-- Base configuration - HTTPS only -->
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system"/>
+        </trust-anchors>
+    </base-config>
+
+    <!-- Debug configuration - REMOVE FOR PRODUCTION -->
+    <debug-overrides>
+        <trust-anchors>
+            <certificates src="user"/>
+        </trust-anchors>
+    </debug-overrides>
+
+    <!-- 
+    Domain-specific config example:
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">api.yourdomain.com</domain>
+        <pin-set expiration="2025-12-31">
+            <pin digest="SHA-256">sha256_hash_here</pin>
+        </pin-set>
+    </domain-config>
+    -->
+</network-security-config>
