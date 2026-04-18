@@ -1,0 +1,175 @@
+2026-04-18T11:47:49.196Z  [CACHE]  HIT  flutter.releases
+2026-04-18T11:47:49.196Z  [INFO ]  Scan started — 7 packages
+2026-04-18T11:47:49.197Z  [INFO ]  [1/7] bloc_test
+2026-04-18T11:47:49.198Z  [INFO ]  Known issue: active
+2026-04-18T11:47:49.198Z  [CACHE]  MISS pub.info.bloc_test
+2026-04-18T11:47:49.198Z  [API  ]  GET https://pub.dev/api/packages/bloc_test
+2026-04-18T11:47:49.205Z  [CACHE]  MISS pub.metrics.bloc_test
+2026-04-18T11:47:49.205Z  [API  ]  GET https://pub.dev/api/packages/bloc_test/metrics
+2026-04-18T11:47:49.210Z  [API  ]  GET https://pub.dev/api/packages/bloc_test/score
+2026-04-18T11:47:49.214Z  [CACHE]  HIT  pub.publisher.bloc_test
+2026-04-18T11:47:49.215Z  [CACHE]  MISS pub.reverseDeps.bloc_test
+2026-04-18T11:47:49.215Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Abloc_test
+2026-04-18T11:47:49.220Z  [INFO ]  [2/7] flutter_lints
+2026-04-18T11:47:49.220Z  [INFO ]  Known issue: active
+2026-04-18T11:47:49.220Z  [CACHE]  HIT  pub.info.flutter_lints
+2026-04-18T11:47:49.220Z  [CACHE]  HIT  pub.metrics.flutter_lints
+2026-04-18T11:47:49.220Z  [CACHE]  HIT  pub.publisher.flutter_lints
+2026-04-18T11:47:49.220Z  [CACHE]  MISS pub.reverseDeps.flutter_lints
+2026-04-18T11:47:49.220Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Aflutter_lints
+2026-04-18T11:47:49.225Z  [INFO ]  [3/7] google_mobile_ads
+2026-04-18T11:47:49.225Z  [INFO ]  Known issue: active
+2026-04-18T11:47:49.225Z  [CACHE]  HIT  pub.info.google_mobile_ads
+2026-04-18T11:47:49.225Z  [CACHE]  HIT  pub.metrics.google_mobile_ads
+2026-04-18T11:47:49.225Z  [CACHE]  HIT  pub.publisher.google_mobile_ads
+2026-04-18T11:47:49.225Z  [CACHE]  MISS pub.reverseDeps.google_mobile_ads
+2026-04-18T11:47:49.225Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Agoogle_mobile_ads
+2026-04-18T11:47:50.264Z  [API  ]  200 OK (1066ms)
+2026-04-18T11:47:50.272Z  [API  ]  200 OK (1062ms)
+2026-04-18T11:47:50.273Z  [API  ]  200 OK (1068ms)
+2026-04-18T11:47:50.321Z  [API  ]  200 OK (1106ms)
+2026-04-18T11:47:50.385Z  [API  ]  200 OK (1160ms)
+2026-04-18T11:47:50.395Z  [API  ]  200 OK (1175ms)
+2026-04-18T11:47:50.411Z  [CACHE]  MISS gh.flutter.packages
+2026-04-18T11:47:50.411Z  [API  ]  GET https://api.github.com/repos/flutter/packages
+2026-04-18T11:47:50.411Z  [API  ]  GET https://api.github.com/repos/flutter/packages/issues?state=closed&since=2026-01-18T11:47:50.411Z&per_page=100
+2026-04-18T11:47:50.411Z  [API  ]  GET https://api.github.com/repos/flutter/packages/pulls?state=closed&per_page=100
+2026-04-18T11:47:50.411Z  [API  ]  GET https://api.github.com/repos/flutter/packages/issues?state=open&sort=comments&direction=desc&per_page=50
+2026-04-18T11:47:50.411Z  [API  ]  GET https://api.github.com/repos/flutter/packages/pulls?state=open&per_page=100
+2026-04-18T11:47:50.981Z  [CACHE]  MISS gh.googleads.googleads-mobile-flutter
+2026-04-18T11:47:50.981Z  [API  ]  GET https://api.github.com/repos/googleads/googleads-mobile-flutter
+2026-04-18T11:47:50.981Z  [API  ]  GET https://api.github.com/repos/googleads/googleads-mobile-flutter/issues?state=closed&since=2026-01-18T11:47:50.981Z&per_page=100
+2026-04-18T11:47:50.981Z  [API  ]  GET https://api.github.com/repos/googleads/googleads-mobile-flutter/pulls?state=closed&per_page=100
+2026-04-18T11:47:50.981Z  [API  ]  GET https://api.github.com/repos/googleads/googleads-mobile-flutter/issues?state=open&sort=comments&direction=desc&per_page=50
+2026-04-18T11:47:50.981Z  [API  ]  GET https://api.github.com/repos/googleads/googleads-mobile-flutter/pulls?state=open&per_page=100
+2026-04-18T11:47:56.901Z  [CACHE]  MISS gh.felangel.bloc
+2026-04-18T11:47:56.901Z  [API  ]  GET https://api.github.com/repos/felangel/bloc
+2026-04-18T11:47:56.901Z  [API  ]  GET https://api.github.com/repos/felangel/bloc/issues?state=closed&since=2026-01-18T11:47:56.901Z&per_page=100
+2026-04-18T11:47:56.901Z  [API  ]  GET https://api.github.com/repos/felangel/bloc/pulls?state=closed&per_page=100
+2026-04-18T11:47:56.901Z  [API  ]  GET https://api.github.com/repos/felangel/bloc/issues?state=open&sort=comments&direction=desc&per_page=50
+2026-04-18T11:47:56.901Z  [API  ]  GET https://api.github.com/repos/felangel/bloc/pulls?state=open&per_page=100
+2026-04-18T11:47:57.544Z  [API  ]  403 rate limit exceeded (7133ms)
+2026-04-18T11:47:57.544Z  [API  ]  403 rate limit exceeded (7133ms)
+2026-04-18T11:47:57.544Z  [API  ]  403 rate limit exceeded (7133ms)
+2026-04-18T11:47:57.544Z  [API  ]  403 rate limit exceeded (7133ms)
+2026-04-18T11:47:57.544Z  [API  ]  403 rate limit exceeded (7133ms)
+2026-04-18T11:47:57.545Z  [SCORE]  flutter_lints → 17.7 (outdated) [rv=10.958904109589042 eg=5.479452054794521 pop=50 pt=-5 pq=10]
+2026-04-18T11:47:57.545Z  [CACHE]  HIT  pub.archiveSize.flutter_lints
+2026-04-18T11:47:57.546Z  [CACHE]  HIT  pub.search.lints
+2026-04-18T11:47:57.546Z  [INFO ]  [4/7] in_app_purchase
+2026-04-18T11:47:57.546Z  [INFO ]  Known issue: active
+2026-04-18T11:47:57.546Z  [CACHE]  HIT  pub.info.in_app_purchase
+2026-04-18T11:47:57.546Z  [CACHE]  HIT  pub.metrics.in_app_purchase
+2026-04-18T11:47:57.546Z  [CACHE]  HIT  pub.publisher.in_app_purchase
+2026-04-18T11:47:57.546Z  [CACHE]  MISS pub.reverseDeps.in_app_purchase
+2026-04-18T11:47:57.546Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Ain_app_purchase
+2026-04-18T11:47:57.822Z  [API  ]  403 rate limit exceeded (6841ms)
+2026-04-18T11:47:57.822Z  [API  ]  403 rate limit exceeded (6841ms)
+2026-04-18T11:47:57.822Z  [API  ]  403 rate limit exceeded (6841ms)
+2026-04-18T11:47:57.822Z  [API  ]  403 rate limit exceeded (6841ms)
+2026-04-18T11:47:57.822Z  [API  ]  403 rate limit exceeded (6841ms)
+2026-04-18T11:47:57.822Z  [SCORE]  google_mobile_ads → 78.3 (vibrant) [rv=98.9041095890411 eg=49.45205479452055 pop=46.875 pt=-5 pq=9.375]
+2026-04-18T11:47:57.824Z  [CACHE]  HIT  pub.archiveSize.google_mobile_ads
+2026-04-18T11:47:58.427Z  [API  ]  403 rate limit exceeded (1526ms)
+2026-04-18T11:47:58.427Z  [API  ]  403 rate limit exceeded (1526ms)
+2026-04-18T11:47:58.427Z  [API  ]  403 rate limit exceeded (1526ms)
+2026-04-18T11:47:58.427Z  [API  ]  403 rate limit exceeded (1526ms)
+2026-04-18T11:47:58.427Z  [API  ]  403 rate limit exceeded (1526ms)
+2026-04-18T11:47:58.427Z  [SCORE]  bloc_test → 10 (outdated) [rv=0 eg=0 pop=50 pt=-5 pq=10]
+2026-04-18T11:47:58.431Z  [CACHE]  MISS pub.archiveSize.bloc_test
+2026-04-18T11:47:58.432Z  [API  ]  HEAD https://pub.dev/api/archives/bloc_test-10.0.0.tar.gz
+2026-04-18T11:47:58.691Z  [API  ]  200 OK (1145ms)
+2026-04-18T11:47:59.027Z  [CACHE]  MISS gh.flutter.packages
+2026-04-18T11:47:59.027Z  [API  ]  GET https://api.github.com/repos/flutter/packages
+2026-04-18T11:47:59.027Z  [API  ]  GET https://api.github.com/repos/flutter/packages/issues?state=closed&since=2026-01-18T11:47:59.027Z&per_page=100
+2026-04-18T11:47:59.027Z  [API  ]  GET https://api.github.com/repos/flutter/packages/pulls?state=closed&per_page=100
+2026-04-18T11:47:59.027Z  [API  ]  GET https://api.github.com/repos/flutter/packages/issues?state=open&sort=comments&direction=desc&per_page=50
+2026-04-18T11:47:59.027Z  [API  ]  GET https://api.github.com/repos/flutter/packages/pulls?state=open&per_page=100
+2026-04-18T11:47:59.256Z  [INFO ]  [5/7] intl
+2026-04-18T11:47:59.256Z  [INFO ]  Known issue: active
+2026-04-18T11:47:59.256Z  [CACHE]  HIT  pub.info.intl
+2026-04-18T11:47:59.256Z  [CACHE]  HIT  pub.metrics.intl
+2026-04-18T11:47:59.256Z  [CACHE]  HIT  pub.publisher.intl
+2026-04-18T11:47:59.256Z  [CACHE]  MISS pub.reverseDeps.intl
+2026-04-18T11:47:59.256Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Aintl
+2026-04-18T11:47:59.351Z  [API  ]  200 OK (919ms)
+2026-04-18T11:47:59.586Z  [ERROR]  Failed to fetch GitHub metrics for flutter/packages
+2026-04-18T11:47:59.586Z  [SCORE]  in_app_purchase → 15.4 (outdated) [rv=7.671232876712324 eg=3.835616438356162 pop=50 pt=-5 pq=10]
+2026-04-18T11:47:59.586Z  [CACHE]  HIT  pub.archiveSize.in_app_purchase
+2026-04-18T11:47:59.586Z  [CACHE]  HIT  pub.search.in-app-purchase,payment
+2026-04-18T11:47:59.587Z  [INFO ]  [6/7] mocktail
+2026-04-18T11:47:59.587Z  [INFO ]  Known issue: active
+2026-04-18T11:47:59.587Z  [CACHE]  HIT  pub.info.mocktail
+2026-04-18T11:47:59.587Z  [CACHE]  HIT  pub.metrics.mocktail
+2026-04-18T11:47:59.587Z  [CACHE]  HIT  pub.publisher.mocktail
+2026-04-18T11:47:59.587Z  [CACHE]  MISS pub.reverseDeps.mocktail
+2026-04-18T11:47:59.587Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Amocktail
+2026-04-18T11:47:59.994Z  [API  ]  200 OK (738ms)
+2026-04-18T11:48:00.005Z  [CACHE]  MISS gh.dart-lang.i18n
+2026-04-18T11:48:00.006Z  [API  ]  GET https://api.github.com/repos/dart-lang/i18n
+2026-04-18T11:48:00.006Z  [API  ]  GET https://api.github.com/repos/dart-lang/i18n/issues?state=closed&since=2026-01-18T11:48:00.006Z&per_page=100
+2026-04-18T11:48:00.006Z  [API  ]  GET https://api.github.com/repos/dart-lang/i18n/pulls?state=closed&per_page=100
+2026-04-18T11:48:00.006Z  [API  ]  GET https://api.github.com/repos/dart-lang/i18n/issues?state=open&sort=comments&direction=desc&per_page=50
+2026-04-18T11:48:00.006Z  [API  ]  GET https://api.github.com/repos/dart-lang/i18n/pulls?state=open&per_page=100
+2026-04-18T11:48:00.257Z  [API  ]  200 OK (670ms)
+2026-04-18T11:48:00.265Z  [CACHE]  MISS gh.felangel.mocktail
+2026-04-18T11:48:00.265Z  [API  ]  GET https://api.github.com/repos/felangel/mocktail
+2026-04-18T11:48:00.265Z  [API  ]  GET https://api.github.com/repos/felangel/mocktail/issues?state=closed&since=2026-01-18T11:48:00.265Z&per_page=100
+2026-04-18T11:48:00.265Z  [API  ]  GET https://api.github.com/repos/felangel/mocktail/pulls?state=closed&per_page=100
+2026-04-18T11:48:00.265Z  [API  ]  GET https://api.github.com/repos/felangel/mocktail/issues?state=open&sort=comments&direction=desc&per_page=50
+2026-04-18T11:48:00.265Z  [API  ]  GET https://api.github.com/repos/felangel/mocktail/pulls?state=open&per_page=100
+2026-04-18T11:48:00.504Z  [ERROR]  Failed to fetch GitHub metrics for dart-lang/i18n
+2026-04-18T11:48:00.504Z  [SCORE]  intl → 9.1 (outdated) [rv=0 eg=0 pop=46.875 pt=-5 pq=9.375]
+2026-04-18T11:48:00.504Z  [CACHE]  HIT  pub.archiveSize.intl
+2026-04-18T11:48:00.504Z  [CACHE]  HIT  pub.search.i18n,intl
+2026-04-18T11:48:00.504Z  [INFO ]  [7/7] shared_preferences
+2026-04-18T11:48:00.504Z  [CACHE]  HIT  pub.info.shared_preferences
+2026-04-18T11:48:00.504Z  [CACHE]  HIT  pub.metrics.shared_preferences
+2026-04-18T11:48:00.504Z  [CACHE]  HIT  pub.publisher.shared_preferences
+2026-04-18T11:48:00.504Z  [CACHE]  MISS pub.reverseDeps.shared_preferences
+2026-04-18T11:48:00.504Z  [API  ]  GET https://pub.dev/packages?q=dependency%3Ashared_preferences
+2026-04-18T11:48:00.545Z  [CACHE]  MISS pub.search.bloc,state-management,test
+2026-04-18T11:48:00.545Z  [API  ]  GET https://pub.dev/api/search?q=topic%3Abloc%20topic%3Astate-management%20topic%3Atest&sort=popularity
+2026-04-18T11:48:01.141Z  [API  ]  200 OK (596ms)
+2026-04-18T11:48:01.210Z  [API  ]  200 OK (706ms)
+2026-04-18T11:48:01.211Z  [API  ]  403 rate limit exceeded (946ms)
+2026-04-18T11:48:01.211Z  [API  ]  403 rate limit exceeded (946ms)
+2026-04-18T11:48:01.211Z  [API  ]  403 rate limit exceeded (946ms)
+2026-04-18T11:48:01.211Z  [API  ]  403 rate limit exceeded (946ms)
+2026-04-18T11:48:01.211Z  [API  ]  403 rate limit exceeded (946ms)
+2026-04-18T11:48:01.211Z  [SCORE]  mocktail → 78.5 (vibrant) [rv=97.8082191780822 eg=48.9041095890411 pop=50 pt=-5 pq=10]
+2026-04-18T11:48:01.211Z  [CACHE]  HIT  pub.archiveSize.mocktail
+2026-04-18T11:48:01.370Z  [CACHE]  MISS gh.flutter.packages
+2026-04-18T11:48:01.370Z  [API  ]  GET https://api.github.com/repos/flutter/packages
+2026-04-18T11:48:01.370Z  [API  ]  GET https://api.github.com/repos/flutter/packages/issues?state=closed&since=2026-01-18T11:48:01.370Z&per_page=100
+2026-04-18T11:48:01.370Z  [API  ]  GET https://api.github.com/repos/flutter/packages/pulls?state=closed&per_page=100
+2026-04-18T11:48:01.370Z  [API  ]  GET https://api.github.com/repos/flutter/packages/issues?state=open&sort=comments&direction=desc&per_page=50
+2026-04-18T11:48:01.370Z  [API  ]  GET https://api.github.com/repos/flutter/packages/pulls?state=open&per_page=100
+2026-04-18T11:48:02.287Z  [API  ]  403 rate limit exceeded (917ms)
+2026-04-18T11:48:02.287Z  [API  ]  403 rate limit exceeded (917ms)
+2026-04-18T11:48:02.287Z  [API  ]  403 rate limit exceeded (917ms)
+2026-04-18T11:48:02.287Z  [API  ]  403 rate limit exceeded (917ms)
+2026-04-18T11:48:02.287Z  [API  ]  403 rate limit exceeded (917ms)
+2026-04-18T11:48:02.287Z  [SCORE]  shared_preferences → 75.6 (vibrant) [rv=93.6986301369863 eg=46.84931506849315 pop=50 pt=-5 pq=10]
+2026-04-18T11:48:02.287Z  [CACHE]  HIT  pub.archiveSize.shared_preferences
+2026-04-18T11:48:05.516Z  [INFO ]  Dep graph: 7 direct, 78 transitive, 0 overrides
+2026-04-18T11:48:05.517Z  [CACHE]  MISS osv.vulns.bloc_test.9.1.7
+2026-04-18T11:48:05.517Z  [CACHE]  HIT  osv.vulns.flutter_lints.6.0.0
+2026-04-18T11:48:05.517Z  [CACHE]  HIT  osv.vulns.google_mobile_ads.5.3.1
+2026-04-18T11:48:05.517Z  [CACHE]  HIT  osv.vulns.in_app_purchase.3.2.3
+2026-04-18T11:48:05.517Z  [CACHE]  HIT  osv.vulns.intl.0.20.2
+2026-04-18T11:48:05.517Z  [CACHE]  HIT  osv.vulns.mocktail.1.0.5
+2026-04-18T11:48:05.517Z  [CACHE]  HIT  osv.vulns.shared_preferences.2.5.5
+2026-04-18T11:48:05.517Z  [API  ]  POST https://api.osv.dev/v1/querybatch
+2026-04-18T11:48:05.525Z  [CACHE]  MISS ghsa.vulns.bloc_test.9.1.7
+2026-04-18T11:48:05.525Z  [CACHE]  HIT  ghsa.vulns.flutter_lints.6.0.0
+2026-04-18T11:48:05.525Z  [CACHE]  HIT  ghsa.vulns.google_mobile_ads.5.3.1
+2026-04-18T11:48:05.525Z  [CACHE]  HIT  ghsa.vulns.in_app_purchase.3.2.3
+2026-04-18T11:48:05.525Z  [CACHE]  HIT  ghsa.vulns.intl.0.20.2
+2026-04-18T11:48:05.525Z  [CACHE]  HIT  ghsa.vulns.mocktail.1.0.5
+2026-04-18T11:48:05.525Z  [CACHE]  HIT  ghsa.vulns.shared_preferences.2.5.5
+2026-04-18T11:48:05.542Z  [API  ]  GET https://api.github.com/advisories?ecosystem=pub&package=bloc_test&affects=9.1.7&per_page=100
+2026-04-18T11:48:06.214Z  [API  ]  403 rate limit exceeded (672ms)
+2026-04-18T11:48:06.214Z  [ERROR]  GitHub Advisory query failed for bloc_test: 403
+2026-04-18T11:48:06.331Z  [API  ]  200 OK (814ms)
+2026-04-18T11:48:08.916Z  [INFO ]  Scan complete — 19720ms — vibrant:3 stable:0 outdated:4 abandoned:0 eol:0
